@@ -28,4 +28,53 @@ header nav ul li a:hover {
   text-shadow: 0px 0px 10px salmon;
 }
 
+.img-ubi {
+  width: 300px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.iframe-ubi {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.ubi_grid-container {
+  background-color: #393E46;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .img-ubi {
+    width: 200px;
+    height: 600px;
+  }
+  .iframe-ubi {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 849px) {
+  .img-ubi {
+    width: 150px;
+    height: 550px;
+  }
+  .iframe-ubi {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (max-width: 849px) {
+  .img-ubi {
+    display: none;
+  }
+  .iframe-ubi {
+    margin-bottom: 100px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
